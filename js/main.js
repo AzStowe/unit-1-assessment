@@ -55,14 +55,14 @@ function addition() {
     var n1 = parseInt(document.getElementById('box').value);
     var n2 = parseInt(document.getElementById('result').innerHTML);
    
-    var math = result.innerHTML = n1 + n2;
+    result.innerHTML = n1 + n2;
 }
 
 function subtraction() {
     var n1 = parseInt(document.getElementById('box').value);
     var n2 = parseInt(document.getElementById('result').innerHTML);
 
-    var math = result.innerHTML = n2 - n1;
+    result.innerHTML = n2 - n1;
 }
 
 
